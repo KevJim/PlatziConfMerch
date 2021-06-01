@@ -56,3 +56,10 @@
 a {
   text-decoration: none;
 }
+
+@media (max-width: 450px) {
+  .Checkout {
+    display: flex;
+    flex-direction: column;
+  }
+}

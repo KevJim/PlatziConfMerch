@@ -50,3 +50,12 @@
 .Products-item button:hover {
   background-color: #688f2a;
 }
+
+@media (max-width: 450px) {
+  .Products-items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.5rem;
+    grid-row-gap: 1.5em;
+    display: grid;
+  }
+}
